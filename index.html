@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resume Builder </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <h1><font face="algerian"> Static Resume Builder <br>By<br> Usama Nadeem</h1></font>
+    <form id="resumeform">
+        <fieldset>
+            <legend><font face="algerian">Personal Information </legend></font> 
+            <label for="name"> Name: </label>
+            <input type="text" id="name" required><br>
+            <label for="email"> Email: </label>
+            <input type="email"id="email" name ="email" required><br>
+            <label for="phone">phone:</label>
+            <input type="phone" id="phone" name="phone" required>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><font face="algerian">Education</legend></font>
+            <label for="Education"> Education</label>
+            <textarea id="Education" name="Education" rows="4" required></textarea><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><font face="algerian">Experiance</legend></font>
+            <label for="Experiance"> Experiance</label>
+            <textarea id="Experiance" name="Experiance" rows="4" required></textarea><br>
+            
+        </fieldset>
+        <fieldset>
+            <legend><font face="algerian">Skills</legend></font>
+            <label for="Skills"> Skills</label>
+            <textarea id="Skills" name="Skills" rows="4" required></textarea><br>
+            
+        </fieldset>
+        <button type="submit"> Generat Resume </button>
+    </form>
+</body>
+</html>
+
